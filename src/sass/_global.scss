@@ -1,0 +1,45 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+}
+
+html, body{
+  color: #005D82;
+}
+
+
+button{
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+label{
+  display: block;
+  padding-bottom: .5rem;
+  font-weight: 300;
+  font-size: .9rem;
+}
+
+h2{
+  margin-bottom: 1.5rem;
+}
+
+.wrapper{
+  padding: 1rem;
+}
+
+.button-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
